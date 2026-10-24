@@ -1,0 +1,23 @@
+name: SyidSearch
+options:
+  bundleIdPrefix: com.syidddproject
+  deploymentTarget:
+    iOS: "12.0"
+targets:
+  SyidSearch:
+    type: application
+    platform: iOS
+    sources: [App]
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: syidddproject
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        NSAppTransportSecurity: {NSAllowsArbitraryLoads: true}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.syidddproject.search
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"

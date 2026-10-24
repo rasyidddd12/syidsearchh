@@ -1,0 +1,8 @@
+CARA MEMBUAT .IPA (syidddproject)
+1. Buat repo baru di github.com, upload SELURUH isi folder ini (termasuk folder .github).
+2. Buka tab Actions > "Build IPA" > tunggu selesai (±3-5 menit).
+3. Download artifact "SyidSearch-ipa", ekstrak -> SyidSearch.ipa
+4. Buka iLoader di komputer, colok iPad, pilih SyidSearch.ipa, login Apple ID.
+5. Di iPad: Settings > General > VPN & Device Management > Trust.
+Catatan: minimal iOS 12. Tombol ＋ = tab baru, ✕ = tutup tab. Centang "Tampilkan tab di beranda" di halaman utama untuk menampilkan daftar tab terbuka. Tap 3 jari = beranda.
+Mesin telusur: Google, Bing, DuckDuckGo, Brave, Yahoo (bisa diganti di halaman utama).
